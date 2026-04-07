@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: linear-gradient(135deg, #0f172a, #1e293b);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Container */
+.container {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(12px);
+  border-radius: 20px;
+  padding: 30px;
+  width: 320px;
+  text-align: center;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+}
+
+/* Title */
+h2 {
+  margin-bottom: 10px;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+/* Status */
+#status {
+  font-size: 14px;
+  opacity: 0.8;
+  margin-bottom: 10px;
+}
+
+/* Transcript box */
+#text {
+  background: rgba(255, 255, 255, 0.08);
+  padding: 12px;
+  border-radius: 10px;
+  font-size: 14px;
+  min-height: 40px;
+  margin-bottom: 15px;
+  word-wrap: break-word;
+}
+
+/* Button */
+button {
+  background: linear-gradient(135deg, #3b82f6, #6366f1);
+  border: none;
+  border-radius: 30px;
+  padding: 12px 20px;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  width: 100%;
+}
+
+/* Button hover */
+button:hover {
+  transform: scale(1.05);
+  background: linear-gradient(135deg, #2563eb, #4f46e5);
+}
+
+/* Button active */
+button:active {
+  transform: scale(0.95);
+}
+
+/* Hint text */
+#hint {
+  margin-top: 10px;
+  font-size: 12px;
+  opacity: 0.6;
+}
