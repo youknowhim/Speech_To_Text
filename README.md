@@ -76,15 +76,15 @@ Key Press → Record Audio → Transcribe (Deepgram)
 ```
 project/
 │
-├── main.js   <br>       # Electron entry point
-├── index.html <br>       # UI + logic
-├── style.css       <br>  # Styling
-├── audio.js    <br>      # Audio recording (MediaRecorder)
-├── deepgram.js  <br>     # Speech-to-text API
-├── groq.js     <br>      # Text polishing (AI)
-├── injector.js  <br>     # Clipboard handling
-├── balance.js   <br>     # API balance/status
-├── config.js   <br>      # API keys
+├── main.js        # Electron entry point
+├── index.html        # UI + logic
+├── style.css         # Styling
+├── audio.js          # Audio recording (MediaRecorder)
+├── deepgram.js      # Speech-to-text API
+├── groq.js           # Text polishing (AI)
+├── injector.js       # Clipboard handling
+├── balance.js        # API balance/status
+├── config.js     # API keys
 └── package.json
 ```
 
