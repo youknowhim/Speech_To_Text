@@ -67,8 +67,7 @@ Key Press → Record Audio → Transcribe (Deepgram)
 * **Speech-to-Text:** Deepgram API
 * **AI Processing:** Groq API (LLaMA3)
 * **Audio Capture:** MediaRecorder API
-* **Clipboard:** Electron Clipboard API
-
+* **Clipboard:** Robotjs
 ---
 
 ## 📁 Project Structure
